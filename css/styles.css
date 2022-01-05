@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*CORPO DO SITE*/
+body{
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #ffffff url(../imagens/bg.png);/*nao se colocar o no-repeat pois queremos que a imagem se repita tanto na vertical qunato na horizontal*/
+    margin: 15px;/*espaãmentod e 15px tanto em todas direcoes*/
+}
+#container{
+    background: #ede9cc;
+}
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;/*Para as letras ser proporcional a altura do topo*/
+    min-height: 250px;/*Para nao diminuir menus que isso*/
+}
+#area-logo{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../imagens/topo-imagem-principal.png)no-repeat;
+    width: 100%;
+    height: 250px;
+}
+#area-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(../imagens/topo-imagem-lateral.png)no-repeat;
+    width: 450px;
+    height: 250px;
+}
