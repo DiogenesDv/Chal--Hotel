@@ -9,9 +9,9 @@ body{
     margin: 15px;/*espaãmentod e 15px tanto em todas direcoes*/
 }
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png)top center repeat-y;
     margin: 0 auto;
-    min-width: 740px;/*O minimu que a a pag vai reduzir na largura*/
+    min-width: 970px;/*O minimu que a a pag vai reduzir na largura*/
     max-width: 1180px;/*O max que a a pag vai aumentar na largura*/
 }
 #topo{
@@ -113,4 +113,77 @@ ul#navegacao{
     width: 226px;
     height: 164px;
     float: right;
+}
+/***Area Principal e Lateral***/
+#area-principal{
+    float: left;
+    width: 49.4%;
+    background: url(../imagens/bg-area-principal.png)top left repeat-x;
+    padding: 15px 0px;
+}
+#area-lateral{
+    float: right;
+    width: 49.4%; 
+    background: url(../imagens/bg-area-lateral.png)top left repeat-x;
+    padding: 20px 0px;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+h2{
+    color: #7d7640;
+    font-size: 1.4em;
+    font-style: oblique;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/***Lateral***/
+#areas-do-hotel li{
+    margin-top: 8px;
+    padding: 6px;
+    border-bottom: 2px solid #f3efcb;
+    height: 110px; /*ou 7em*/
+}
+#areas-do-hotel li a img{
+    float: right;
+    margin-right: 5px;
+    border: 2px solid #615b2d;
+}
+#areas-do-hotel li a p{
+    font-size: 0.9em;
+    color: black;  
+}
+#areas-do-hotel li h3{
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    color: #615b2d;
+    background: url(../imagens/ornamento.png) no-repeat center;
+}
+#areas-do-hotel li:hover{
+    background-image: linear-gradient(to right, #7d76406d, #fdf6be87);
+    cursor: pointer;
+}
+
+/***Rodape***/
+#rodape-falso{
+    clear: both;/*Para REMOVER O FLUXO FLUTUANTE E FAZER APARECER A IMAGEM DE FUNDO*/   
+}
+#rodape{
+    margin: 0 auto;
+    max-width: 1148px;
+    min-width: 970px;
+    padding: 16px;
+    background: #ebe5b7 url(../imagens/bg-rodape.png) repeat-x top;
+}
+#rodape h3{
+    font-size: 0.9em;
+    text-align: center;
+    background-image: linear-gradient(to right, #6f6838, #bdb78a87);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;    
 }
